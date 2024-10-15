@@ -60,7 +60,9 @@ p {
     
 }
 .leftsection{
-    font: size 3rem;;    
+    font: size 3rem;
+    background-color: #5C8374;  
+    border-radius: 40px;
 }
 .rightsection{
     width: 80%;    
@@ -98,8 +100,9 @@ p {
 .slider img{
     flex: 1 0 100%;
     scroll-snap-align: start;
-    object-fit: fill;
-
+    object-fit: contain;
+    background-color: #5C8374;
+    border-radius: 40px;
 }
 .slider-nav{
     display: flex;
@@ -118,8 +121,37 @@ p {
     opacity: 0.75;
     transition: opacity ease 250ms;
 }
+footer{
+    background-color: #1B4242;
+ 
+}
+footer h1{
+    margin: 20px 100px;
+}
 .footer{
-    margin-top:auto;
     display: flex;
+    margin: 0.83em .83em;
+}
+footer a{
+    text-decoration: none;
+    color:white;
 
+}
+
+.contact{
+    margin: 20px 100px;
+}
+
+.contact a{
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 20px 100px ;
+    color: white;
+}
+
+footer img{
+    display: inline-flex;
+    margin-inline-start: 180px;
 }
